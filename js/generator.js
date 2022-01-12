@@ -24,8 +24,7 @@ const pryg = [
 
 let genName = function () {
   const length = Math.floor(Math.random() * 14) + 3;
-    alert();
-    let teamName = [];
+    let teamName = "";
     let golPrygCounter = 1;
     let GolNotPryg = true;
     for (let i = 0; i < length; i++) {
@@ -41,10 +40,10 @@ let genName = function () {
             }
             if (GolNotPryg >= 0 || GolNotPryg <= 2) {flagK = false;}
         } 
-        teamName.push(newSymbol);
+        teamName += newSymbol;
     }
-    alert(`Length is ${length} and Team name is ${teamName}`);
+    alert(`The name is ${teamName}`);
 };
 
 const genBtn = document.getElementById("gen_btn");
-genBtn.addEventListener("click", genName());
+genBtn.addEventListener("click", genName);
