@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 120px 0;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: black;
+  color: white;
+}
+
+button {
+  padding: 12px;
+  background-color: tomato;
+  color: antiquewhite;
+}
+
+.name {
+  font-size: 42px;
+  margin: 0;
+}
+
+#js-name-here {
+  line-height: 0.96;
+  margin: 0;
+}
+
+.f1 {
+  font-family: "Abril Fatface", cursive;
+}
+
+.f2 {
+  font-family: "Bebas Neue", cursive;
+}
+
+.f3 {
+  font-family: "Blaka", cursive;
+}
+.f4 {
+  font-family: "Fredoka One", cursive;
+}
+.f5 {
+  font-family: "Homemade Apple", cursive;
+}
+.f6 {
+  font-family: "Joan", serif;
+}
+.f7 {
+  font-family: "Josefin Sans", sans-serif;
+}
+.f8 {
+  font-family: "Kanit", sans-serif;
+}
+.f9 {
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+.f10 {
+  font-family: "Oswald", sans-serif;
+}
+.f11 {
+  font-family: "Pacifico", cursive;
+}
+.f12 {
+  font-family: "Patrick Hand", cursive;
+}
+.f13 {
+  font-family: "Permanent Marker", cursive;
+}
+.f14 {
+  font-family: "Roboto Mono", monospace;
+}
+.f15 {
+  font-family: "Secular One", sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
